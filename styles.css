@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@403&display=swap');
 
 :root{
-    --primary-color: #a855f7;
-    --primary-color-dark: #a855f7;
-    --secondary-color: #a855f7;
-    --text-dark: #a855f7;
-    --text-light: #a855f7;
-    --extra-light: #a855f7;
+    --primary-color: #FF5733;      /* Sunset Orange */
+    --primary-color-dark: #C70039; /* Deep Red */
+    --secondary-color: #FFC300;   /* Golden Yellow */
+    --accent-color: #DAF7A6;       /* Light Green */
+    --text-dark: #1C2833;         /* Dark Gray */
+    --text-light: #FDFEFE;        
     --max-width: 1200px;
 }
 
