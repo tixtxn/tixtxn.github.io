@@ -271,7 +271,10 @@ footer {
                 padding-right: 16px;
                 margin-right: 16px;
             }
-
+            .description {
+                text-align: center;
+                padding: 20px; /* Optional, adds spacing around the text */
+              }
             /* Project Description */
             .project-container header div {
                 padding: 32px;
