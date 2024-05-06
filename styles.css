@@ -43,6 +43,7 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
+    overflow-x: hidden; 
 }
 
 /* Text Styles */
@@ -120,7 +121,7 @@ marquee {
         text-wrap: nowrap;
         width: auto;
 
-        cursor: pointer;
+        cursor: url(assets/Search\ on\ Earth.ico)8 8,auto;
 
         user-select: auto !important;
     }
@@ -168,8 +169,7 @@ marquee {
         font-weight: 600;
         color: var(--blank-crystal);
         transition: 0.3;  
-        cursor: pointer;
-    }
+        cursor: url(assets/Search\ on\ Earth.ico)8 8,auto;    }
 
     ul a li::selection {
         background: transparent;
@@ -344,7 +344,7 @@ footer {
         -webkit-user-select: none;
         -webkit-user-drag: none;
         -webkit-user-select: none;
-        display: none;
+        display: url(assets/Space.ico);
       }
 
     hr {
@@ -399,3 +399,65 @@ footer {
           background-color: #ffffff;
         }
       }
+
+      
+
+/* Consistent Color Palette */
+/* Project Grid with Two Columns */
+/* Section Layout */
+/* Project Grid with Symmetric Layout */
+/* Parent Container for Centering */
+.center {
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: center; /* Align items to the middle */
+    padding: 16px; /* Padding around the section */
+}
+
+/* Project Grid with Two Columns */
+.project-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two reviews per row */
+    gap: 24px; /* Consistent spacing between grid items */
+    padding: 16px; /* Padding for the grid */
+    width: 100%; /* Ensure full width for proper alignment */
+}
+
+/* Project Card with Consistent Size */
+.project-card {
+    border: 1px solid var(--comet-gray); /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    background: var(--space-black); /* Consistent background */
+    padding: 16px; /* Padding inside the card */
+    height: 250px; /* Fixed height for consistency */
+    display: flex; /* Use Flexbox for vertical alignment */
+    flex-direction: column; /* Vertical flow */
+    justify-content: space-between; /* Keep footer at the bottom */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hover shadow */
+}
+
+/* Project Footer with Larger Avatar */
+.project-footer {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Ensure proper spacing in the footer */
+    align-items: center; /* Vertical alignment */
+    padding: 12px; /* Padding within the footer */
+}
+
+/* Avatar Icon with Increased Size */
+.avatar-icon {
+    width: 64px; /* Larger size */
+    height: 64px;
+    border-radius: 50%; /* Circular shape */
+    border: 1px solid var(--comet-gray); /* Consistent border */
+}
+
+/* Project Content */
+.project-content {
+    flex-grow: 1; /* Allow content to expand */
+    padding-bottom: 16px; /* Space before the footer */
+}
