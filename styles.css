@@ -149,7 +149,7 @@ marquee {
         align-items: center;
         
         z-index: 99;
-
+        cursor: url(assets/Search\ on\ Earth.ico)8 8,auto;;
         user-select: all !important;
         /* backdrop-filter:  blur(16px) saturate(125%); */
     }
@@ -402,62 +402,54 @@ footer {
 
       
 
-/* Consistent Color Palette */
-/* Project Grid with Two Columns */
-/* Section Layout */
-/* Project Grid with Symmetric Layout */
-/* Parent Container for Centering */
+      
 .center {
     display: flex;
-    justify-content: center; /* Center the content */
-    align-items: center; /* Align items to the middle */
-    padding: 16px; /* Padding around the section */
+    justify-content: center;
+    align-items: center; 
+    padding: 16px;
 }
 
-/* Project Grid with Two Columns */
 .project-grid {
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(2, 1fr); /* Two reviews per row */
-    gap: 24px; /* Consistent spacing between grid items */
-    padding: 16px; /* Padding for the grid */
-    width: 100%; /* Ensure full width for proper alignment */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 24px; 
+    padding: 16px; 
+    width: 100%; 
 }
 
-/* Project Card with Consistent Size */
 .project-card {
-    border: 1px solid var(--comet-gray); /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    background: var(--space-black); /* Consistent background */
-    padding: 16px; /* Padding inside the card */
-    height: 250px; /* Fixed height for consistency */
-    display: flex; /* Use Flexbox for vertical alignment */
-    flex-direction: column; /* Vertical flow */
-    justify-content: space-between; /* Keep footer at the bottom */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+    border: 1px solid var(--comet-gray); 
+    border-radius: 8px;
+    background: var(--space-black);
+    padding: 16px;
+    height: 250px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .project-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hover shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
-/* Project Footer with Larger Avatar */
 .project-footer {
-    display: flex; /* Flexbox for horizontal alignment */
-    justify-content: space-between; /* Ensure proper spacing in the footer */
-    align-items: center; /* Vertical alignment */
-    padding: 12px; /* Padding within the footer */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 12px;
 }
 
-/* Avatar Icon with Increased Size */
+
 .avatar-icon {
-    width: 64px; /* Larger size */
+    width: 64px;
     height: 64px;
-    border-radius: 50%; /* Circular shape */
-    border: 1px solid var(--comet-gray); /* Consistent border */
+    border-radius: 50%; 
+    border: 1px solid var(--comet-gray);
 }
 
-/* Project Content */
 .project-content {
-    flex-grow: 1; /* Allow content to expand */
-    padding-bottom: 16px; /* Space before the footer */
+    flex-grow: 1;
+    padding-bottom: 16px;
 }
